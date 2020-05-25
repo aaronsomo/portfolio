@@ -22,6 +22,11 @@ let resumeData = {
       url: 'http://twitter.com/aaroneksouth',
       className: 'fa fa-twitter',
     },
+    {
+      name: 'twitter',
+      url: 'https://resume.creddle.io/resume/g9yezxvbe6n',
+      className: 'fa fa-twitter',
+    },
   ],
   aboutme:
     "Welcome! I'm Aaron and I have a knack for building creative and meaningful things, be it a bridge in Chicago or a web application on the Internet. As a former Civil Engineer, I’ve worked with different teams to utilize my creative nature in designing and managing many projects, but they haven’t quite filled that void - that curiosity in seeing an idea, solving issues, and having that idea realized. Software Engineering has me expressing that passion, as I take on more challenges, and I couldn't be happier.",

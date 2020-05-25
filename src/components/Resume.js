@@ -4,6 +4,7 @@ export default class Resume extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="resume">
+        {/* <div>VIEW FULL RESUME HERE</div> */}
         <div className="row education">
           <div className="three columns header-col">
             <h1>
@@ -60,7 +61,6 @@ export default class Resume extends Component {
               })}
           </div>
         </div>
-
         <div className="row skill">
           <div className="three columns header-col">
             <h1>
