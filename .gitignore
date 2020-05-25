@@ -1,6 +1,7 @@
 /public
 /node_modules
 /build
+/src/components/Testimonials.js
 
 # misc
 .DS_Store

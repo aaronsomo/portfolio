@@ -69,7 +69,7 @@ let resumeData = {
         'Assistant Resident Engineer at Lisbon Road Bridge. Managed the construction of the bridge. Alleviated congestion during peak hours. Provided a safe route of travel for pedestrians. Assistant Resident Engineer at Minooka Road bridge. Co-managed bridge to accommodate 4 lanes of travel in anticipation of highway expansion, traffic, and neighborhood growth. A part of a team that designed infrastructure projects for District 3 in the State of Illinois.',
     },
   ],
-  skillsDescription: 'Your skills here',
+  skillsDescription: "Here are SOME of the technologies I've frequented...",
   skills: [
     {
       skillname: 'JavaScript',
@@ -79,6 +79,21 @@ let resumeData = {
     },
     {
       skillname: 'Swift',
+    },
+    {
+      skillname: 'Express',
+    },
+    {
+      skillname: 'NodeJS',
+    },
+    {
+      skillname: 'PostgreSQL',
+    },
+    {
+      skillname: 'MongoDB',
+    },
+    {
+      skillname: 'PingPong',
     },
   ],
   portfolio: [
@@ -105,12 +120,12 @@ let resumeData = {
   ],
   testimonials: [
     {
-      description: 'lorem ipsum',
-      name: 'me',
+      description: 'This is a sample testimonial',
+      name: 'Some technical guy',
     },
     {
-      description: 'lorem ipsum',
-      name: 'me',
+      description: 'This is a sample testimonial',
+      name: 'Some technical guy',
     },
   ],
 };
