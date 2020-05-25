@@ -30,7 +30,7 @@ export default class Header extends Component {
               </li>
               <li>
                 <a className="smoothscroll" href="#portfolio">
-                  Works
+                  Projects
                 </a>
               </li>
               <li>
@@ -49,7 +49,7 @@ export default class Header extends Component {
           <div className="row banner">
             <div className="banner-text">
               <h1 className="responsive-headline">
-                Hello, I'm {resumeData.name}.
+                Hello, I'm {resumeData.name}
               </h1>
               <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>
                 I'm a {resumeData.role}.{resumeData.roleDescription}
@@ -61,7 +61,7 @@ export default class Header extends Component {
                     return (
                       <li key={item.name}>
                         <a href={item.url} target="_blank">
-                          <i className={item.className}></i>
+                          <i className={item.className} />
                         </a>
                       </li>
                     );
@@ -72,7 +72,7 @@ export default class Header extends Component {
 
           <p className="scrolldown">
             <a className="smoothscroll" href="#about">
-              <i className="icon-down-circle"></i>
+              <i className="icon-down-circle" />
             </a>
           </p>
         </header>

@@ -45,7 +45,7 @@ let resumeData = {
   ],
   work: [
     {
-      CompanyName: 'SMRTLENS.COM',
+      CompanyName: 'Smrtlens.com',
       specialization: 'CEO/Co-Founder',
       // MonthOfLeaving: 'Jan',
       // YearOfLeaving: '2018',
@@ -72,45 +72,45 @@ let resumeData = {
   skillsDescription: 'Your skills here',
   skills: [
     {
-      skillname: 'HTML5',
+      skillname: 'JavaScript',
     },
     {
-      skillname: 'CSS',
+      skillname: 'React',
     },
     {
-      skillname: 'Reactjs',
+      skillname: 'Swift',
     },
   ],
   portfolio: [
     {
-      name: 'project1',
-      description: 'mobileapp',
-      imgurl: 'images/portfolio/phone.jpg',
+      name: 'TourViewAR',
+      description: 'Augmented Reality Mobile Application',
+      imgurl: 'images/portfolio/tourviewar.jpeg',
     },
     {
-      name: 'project2',
-      description: 'mobileapp',
-      imgurl: 'images/portfolio/project.jpg',
+      name: 'IKEA MOCK',
+      description: 'Web Application',
+      imgurl: 'images/portfolio/ikeamock.png',
     },
     {
-      name: 'project3',
-      description: 'mobileapp',
-      imgurl: 'images/portfolio/project2.png',
+      name: 'HOME AWAY',
+      description: 'Web Application & Systems Design',
+      imgurl: 'images/portfolio/sdc.png',
     },
     {
-      name: 'project4',
-      description: 'mobileapp',
-      imgurl: 'images/portfolio/phone.jpg',
+      name: 'PokerVault',
+      description: 'Mobile Application',
+      imgurl: 'images/portfolio/pokervault.jpeg',
     },
   ],
   testimonials: [
     {
-      description: 'This is a sample testimonial',
-      name: 'Some technical guy',
+      description: 'lorem ipsum',
+      name: 'me',
     },
     {
-      description: 'This is a sample testimonial',
-      name: 'Some technical guy',
+      description: 'lorem ipsum',
+      name: 'me',
     },
   ],
 };
