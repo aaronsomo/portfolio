@@ -23,15 +23,15 @@ let resumeData = {
       className: 'fa fa-twitter',
     },
     {
-      name: 'twitter',
+      name: 'resume',
       url: 'https://resume.creddle.io/resume/g9yezxvbe6n',
-      className: 'fa fa-twitter',
+      className: 'fa fa-align-left',
     },
   ],
   aboutme:
     "Welcome! I'm Aaron and I have a knack for building creative and meaningful things, be it a bridge in Chicago or a web application on the Internet. As a former Civil Engineer, I’ve worked with different teams to utilize my creative nature in designing and managing many projects, but they haven’t quite filled that void - that curiosity in seeing an idea, solving issues, and having that idea realized. Software Engineering has me expressing that passion, as I take on more challenges, and I couldn't be happier.",
-  address: 'Los Angeles',
-  website: 'https://github.com/aaronsomo',
+  address: 'ae.southammavong@gmail.com',
+  website: '+1(847)271-6307',
   education: [
     {
       UniversityName: 'Hack Reactor',
