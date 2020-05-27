@@ -2,7 +2,7 @@ let resumeData = {
   imagebaseurl: 'https://github.com/aaronsomo',
   name: 'Aaron Southammavong',
   role: 'Full-Stack Mobile and Web Developer',
-  linkedinId: ' https://linkedin.com/aaronsouthammavong',
+  linkedinId: ' https://linkedin.com/in/aaronsouthammavong',
   // skypeid: 'Your skypeid',
   roleDescription:
     '  I enjoy solving problems that challenge my understanding, as well as engaging myself in finding better solutions. With that said, I’d love the opportunity to learn more about your challenges and have a discussion about what I can do to help solve them.',
