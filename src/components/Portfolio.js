@@ -69,7 +69,7 @@ export default class Porfolio extends Component {
               <div className="description-box">
                 <h4>{resumeData.portfolio[4].name}</h4>
                 <p>{resumeData.portfolio[4].detailed}</p>
-                <a href={resumeData.portfolio[2].live} target="_blank">
+                <a href={resumeData.portfolio[4].live} target="_blank">
                   View Live
                 </a>
               </div>
