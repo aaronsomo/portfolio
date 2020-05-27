@@ -16,7 +16,7 @@ export default class Porfolio extends Component {
                   return (
                     <div className="columns portfolio-item" key={index}>
                       <div className="item-wrap" key={index}>
-                        <a href="#modal-01" key={index}>
+                        <a href={`#modal-${index}`} key={index}>
                           <img src={`${item.imgurl}`} className="item-img" />
                           <div className="overlay">
                             <div className="portfolio-item-meta">
@@ -29,6 +29,19 @@ export default class Porfolio extends Component {
                     </div>
                   );
                 })}
+            </div>
+            <div id="modal-0" className="white-popup mfp-hide">
+              <img src={resumeData.portfolio[0].imgurl} />
+              {/* {console.log(`${item.imgurl}`)} */}
+            </div>
+            <div id="modal-1" className="white-popup mfp-hide">
+              <img src={resumeData.portfolio[1].imgurl} />
+            </div>
+            <div id="modal-2" className="white-popup mfp-hide">
+              <img src={resumeData.portfolio[2].imgurl} />
+            </div>
+            <div id="modal-3" className="white-popup mfp-hide">
+              <img src={resumeData.portfolio[3].imgurl} />
             </div>
           </div>
         </div>
