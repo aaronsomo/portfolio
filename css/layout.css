@@ -648,7 +648,7 @@ ul#nav li.current a {
 
 /* popup modal */
 .popup-modal {
-  max-width: 550px;
+  max-width: 700px;
   background: #fff;
   position: relative;
   margin: 0 auto;
@@ -663,12 +663,12 @@ ul#nav li.current a {
 }
 .popup-modal .description-box p {
   font: 14px/24px 'opensans-regular', sans-serif;
-  color: #a1a1a1;
+  color: #686868;
   margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
   font: 11px/21px 'opensans-light', sans-serif;
-  color: #a1a1a1;
+  color: #686868;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: block;
