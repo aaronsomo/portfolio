@@ -366,70 +366,54 @@ ul#nav li.current a {
 
 .react {
   width: 85%;
-  -moz-animation: photoshop 2s ease;
-  -webkit-animation: photoshop 2s ease;
+  -moz-animation: react 2s ease;
+  -webkit-animation: react 2s ease;
 }
 .javascript {
   width: 90%;
-  -moz-animation: illustrator 2s ease;
-  -webkit-animation: illustrator 2s ease;
+  -moz-animation: javascript 2s ease;
+  -webkit-animation: javascript 2s ease;
 }
 .swift {
   width: 75%;
-  -moz-animation: wordpress 2s ease;
-  -webkit-animation: wordpress 2s ease;
+  -moz-animation: swift 2s ease;
+  -webkit-animation: swift 2s ease;
 }
 .express {
   width: 90%;
-  -moz-animation: css 2s ease;
-  -webkit-animation: css 2s ease;
+  -moz-animation: express 2s ease;
+  -webkit-animation: express 2s ease;
 }
 .nodejs {
   width: 90%;
-  -moz-animation: html5 2s ease;
-  -webkit-animation: html5 2s ease;
+  -moz-animation: nodejs 2s ease;
+  -webkit-animation: nodejs 2s ease;
 }
 .postgresql {
   width: 85%;
-  -moz-animation: jquery 2s ease;
-  -webkit-animation: jquery 2s ease;
+  -moz-animation: postgresql 2s ease;
+  -webkit-animation: postgresql 2s ease;
 }
 .mongodb {
   width: 85%;
-  -moz-animation: jquery 2s ease;
-  -webkit-animation: jquery 2s ease;
+  -moz-animation: mongodb 2s ease;
+  -webkit-animation: mongodb 2s ease;
 }
 .pingpong {
   width: 125%;
-  -moz-animation: jquery 2s ease;
-  -webkit-animation: jquery 2s ease;
+  -moz-animation: pingpong 2s ease;
+  -webkit-animation: pingpong 2s ease;
 }
 
-@-moz-keyframes photoshop {
+@-moz-keyframes react {
   0% {
     width: 0px;
   }
   100% {
-    width: 60%;
+    width: 85%;
   }
 }
-@-moz-keyframes illustrator {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 55%;
-  }
-}
-@-moz-keyframes wordpress {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 50%;
-  }
-}
-@-moz-keyframes css {
+@-moz-keyframes javascript {
   0% {
     width: 0px;
   }
@@ -437,48 +421,15 @@ ul#nav li.current a {
     width: 90%;
   }
 }
-@-moz-keyframes html5 {
+@-moz-keyframes swift {
   0% {
     width: 0px;
   }
   100% {
-    width: 80%;
+    width: 75%;
   }
 }
-@-moz-keyframes jquery {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 50%;
-  }
-}
-
-@-webkit-keyframes photoshop {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 60%;
-  }
-}
-@-webkit-keyframes illustrator {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 55%;
-  }
-}
-@-webkit-keyframes wordpress {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 50%;
-  }
-}
-@-webkit-keyframes css {
+@-moz-keyframes express {
   0% {
     width: 0px;
   }
@@ -486,20 +437,103 @@ ul#nav li.current a {
     width: 90%;
   }
 }
-@-webkit-keyframes html5 {
+@-moz-keyframes nodejs {
   0% {
     width: 0px;
   }
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
-@-webkit-keyframes jquery {
+@-moz-keyframes postgresql {
   0% {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 85%;
+  }
+}
+
+@-moz-keyframes mongodb {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+@-moz-keyframes pingpong {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 125%;
+  }
+}
+
+@-webkit-keyframes react {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@-webkit-keyframes javascript {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@-webkit-keyframes swift {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@-webkit-keyframes express {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@-webkit-keyframes nodejs {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@-webkit-keyframes postgresql {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@-webkit-keyframes mongodb {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@-webkit-keyframes pingpong {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 125%;
   }
 }
 

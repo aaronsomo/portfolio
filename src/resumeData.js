@@ -25,7 +25,7 @@ let resumeData = {
     {
       name: 'resume',
       url: 'https://resume.creddle.io/resume/g9yezxvbe6n',
-      className: 'fa fa-align-left',
+      className: 'fas fa-file-alt',
     },
   ],
   aboutme:
