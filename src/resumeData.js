@@ -105,22 +105,34 @@ let resumeData = {
     {
       name: 'TourViewAR',
       description: 'Augmented Reality Mobile Application',
+      detailed:
+        'Created a mobile application that allows users to view and create 360 degree tours/images in augmented reality. Created login, create tours, camera, image upload, 360 view, 360 edit view, and text/object editview front-end modules. Implemented camera and file upload functionality. Worked on a team that facilitated a monolithic architecture for project workflow.',
       imgurl: 'images/portfolio/tourviewar.jpeg',
+      live: '',
     },
     {
       name: 'IKEA MOCK',
       description: 'Web Application',
+      detailed:
+        'Worked on a small team to design the IKEA product page. Built raw image carousels and modal components. Generated unique datasets to populate web application through simulated endpoints. Used Mongoose ORM and MongoDB to handle non-relational data set. Implemented a micro-service oriented architecture by combining multiple micro-services into a single proxy.',
       imgurl: 'images/portfolio/ikeamock.png',
+      live: 'https://www.youtube.com/watch?v=fEuulO9LFdk',
     },
     {
       name: 'HOME AWAY',
       description: 'Web Application & Systems Design',
+      detailed:
+        "Re-created a mock of Home Away's front-end implementation. Re-designed a back-end system to support increase in traffic. Created ETL process to extract 15 million datasets into MongoDB and PostgreSQL databases. Optimized server and database to support a 400% increase in traffic to popular endpoints. Containerized & deployed server and database onto EC2 instances for separate management of micro-services.",
       imgurl: 'images/portfolio/sdc.png',
+      live: 'https://www.youtube.com/watch?v=O07YBywin34',
     },
     {
       name: 'PokerVault',
       description: 'Mobile Application',
+      detailed:
+        'Worked on a small team to create a mobile application that helps users track their progress. Created analytical tools and features that displayed useful information to the user. Created the Sessions and New Session screens and functionality.',
       imgurl: 'images/portfolio/pokervault.jpeg',
+      live: '',
     },
   ],
   testimonials: [

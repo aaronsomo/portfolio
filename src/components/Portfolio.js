@@ -30,18 +30,39 @@ export default class Porfolio extends Component {
                   );
                 })}
             </div>
-            <div id="modal-0" className="white-popup mfp-hide">
+            <div id="modal-0" className="popup-modal mfp-hide">
               <img src={resumeData.portfolio[0].imgurl} />
-              {/* {console.log(`${item.imgurl}`)} */}
+              <div className="description-box">
+                <h4>{resumeData.portfolio[0].name}</h4>
+                <p>{resumeData.portfolio[0].detailed}</p>
+              </div>
             </div>
-            <div id="modal-1" className="white-popup mfp-hide">
+            <div id="modal-1" className="popup-modal mfp-hide">
               <img src={resumeData.portfolio[1].imgurl} />
+              <div className="description-box">
+                <h4>{resumeData.portfolio[1].name}</h4>
+                <p>{resumeData.portfolio[1].detailed}</p>
+                <a href={resumeData.portfolio[1].live} target="_blank">
+                  View Live
+                </a>
+              </div>
             </div>
-            <div id="modal-2" className="white-popup mfp-hide">
+            <div id="modal-2" className="popup-modal mfp-hide">
               <img src={resumeData.portfolio[2].imgurl} />
+              <div className="description-box">
+                <h4>{resumeData.portfolio[2].name}</h4>
+                <p>{resumeData.portfolio[2].detailed}</p>
+                <a href={resumeData.portfolio[2].live} target="_blank">
+                  View Live
+                </a>
+              </div>
             </div>
-            <div id="modal-3" className="white-popup mfp-hide">
+            <div id="modal-3" className="popup-modal mfp-hide">
               <img src={resumeData.portfolio[3].imgurl} />
+              <div className="description-box">
+                <h4>{resumeData.portfolio[3].name}</h4>
+                <p>{resumeData.portfolio[3].detailed}</p>
+              </div>
             </div>
           </div>
         </div>
