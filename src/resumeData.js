@@ -134,6 +134,14 @@ let resumeData = {
       imgurl: 'images/portfolio/pokervault.jpeg',
       live: '',
     },
+    {
+      name: 'Reading List',
+      description: 'Command Line Application',
+      detailed:
+        'Created the entire application in NodeJS. Allows users to search for books using the Google Book API and add results to their own reading list. Both time and space complexities were considered. Written under a time contraint of 48 hours. Tested with mocha/chai.',
+      imgurl: 'images/portfolio/readinglistcommandline.png',
+      live: 'https://www.youtube.com/watch?v=SKSFZ_Y144k',
+    },
   ],
   testimonials: [
     {

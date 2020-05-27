@@ -64,6 +64,16 @@ export default class Porfolio extends Component {
                 <p>{resumeData.portfolio[3].detailed}</p>
               </div>
             </div>
+            <div id="modal-4" className="popup-modal mfp-hide">
+              <img src={resumeData.portfolio[4].imgurl} />
+              <div className="description-box">
+                <h4>{resumeData.portfolio[4].name}</h4>
+                <p>{resumeData.portfolio[4].detailed}</p>
+                <a href={resumeData.portfolio[2].live} target="_blank">
+                  View Live
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
