@@ -43,7 +43,7 @@ export default class Porfolio extends Component {
                 <h4>{resumeData.portfolio[1].name}</h4>
                 <p>{resumeData.portfolio[1].detailed}</p>
                 <a href={resumeData.portfolio[1].live} target="_blank">
-                  View Live
+                  View
                 </a>
               </div>
             </div>
@@ -53,7 +53,7 @@ export default class Porfolio extends Component {
                 <h4>{resumeData.portfolio[2].name}</h4>
                 <p>{resumeData.portfolio[2].detailed}</p>
                 <a href={resumeData.portfolio[2].live} target="_blank">
-                  View Live
+                  View
                 </a>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default class Porfolio extends Component {
                 <h4>{resumeData.portfolio[4].name}</h4>
                 <p>{resumeData.portfolio[4].detailed}</p>
                 <a href={resumeData.portfolio[4].live} target="_blank">
-                  View Live
+                  View
                 </a>
               </div>
             </div>
