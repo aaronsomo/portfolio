@@ -14,10 +14,10 @@ export default class Resume extends Component {
 
           <div className="nine columns main-col">
             {resumeData.education &&
-              resumeData.education.map((item) => {
+              resumeData.education.map((item, index) => {
                 return (
-                  <div className="row item">
-                    <div className="twelve columns">
+                  <div className="row item" key={index}>
+                    <div className="twelve columns" key={index}>
                       <h3>{item.UniversityName}</h3>
                       <p className="info">
                         {item.specialization}
@@ -42,10 +42,10 @@ export default class Resume extends Component {
 
           <div className="nine columns main-col">
             {resumeData.work &&
-              resumeData.work.map((item) => {
+              resumeData.work.map((item, index) => {
                 return (
-                  <div className="row item">
-                    <div className="twelve columns">
+                  <div className="row item" key={index}>
+                    <div className="twelve columns" key={index}>
                       <h3>{item.CompanyName}</h3>
                       <p className="info">
                         {item.specialization}
@@ -74,9 +74,9 @@ export default class Resume extends Component {
             <div className="bars">
               <ul className="skills">
                 {resumeData.skills &&
-                  resumeData.skills.map((item) => {
+                  resumeData.skills.map((item, index) => {
                     return (
-                      <li>
+                      <li key={index}>
                         <span
                           className={`bar-expand ${item.skillname.toLowerCase()}`}
                         />
