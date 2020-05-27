@@ -74,7 +74,7 @@ let resumeData = {
         'Assistant Resident Engineer at Lisbon Road Bridge. Managed the construction of the bridge. Alleviated congestion during peak hours. Provided a safe route of travel for pedestrians. Assistant Resident Engineer at Minooka Road bridge. Co-managed bridge to accommodate 4 lanes of travel in anticipation of highway expansion, traffic, and neighborhood growth. A part of a team that designed infrastructure projects for District 3 in the State of Illinois.',
     },
   ],
-  skillsDescription: "Here are SOME of the technologies I've frequented...",
+  skillsDescription: "A quick summary of some of the things I've frequented...",
   skills: [
     {
       skillname: 'JavaScript',
