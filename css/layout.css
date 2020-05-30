@@ -698,7 +698,7 @@ ul#nav li.current a {
 
 .projectlinks {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 /* fadein/fadeout effect for modal popup
