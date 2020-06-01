@@ -105,42 +105,72 @@ let resumeData = {
     {
       name: 'TourViewAR',
       description: 'Augmented Reality Mobile Application',
+      stack: 'React-Native, Redux, Express, NodeJS, PostgreSQL, AWS, Heroku',
       detailed:
         'Created a mobile application that allows users to view and create 360 degree tours/images in augmented reality. Created login, create tours, camera, image upload, 360 view, 360 edit view, and text/object editview front-end modules. Implemented camera and file upload functionality. Worked on a team that facilitated a monolithic architecture for project workflow.',
-      imgurl: 'images/portfolio/tourviewar.jpeg',
-      live: '',
+      imgurl: 'images/portfolio/tourviewarclient.png',
+      live: 'https://github.com/aaronsomo/tourviewar-client',
+      github: 'https://github.com/aaronsomo/tourviewar-client',
     },
     {
       name: 'IKEA MOCK',
       description: 'Web Application',
+      stack: 'React, Express, NodeJS, MongoDB, PostgreSQL, Heroku',
       detailed:
         'Worked on a small team to design the IKEA product page. Built raw image carousels and modal components. Generated unique datasets to populate web application through simulated endpoints. Used Mongoose ORM and MongoDB to handle non-relational data set. Implemented a micro-service oriented architecture by combining multiple micro-services into a single proxy.',
       imgurl: 'images/portfolio/ikeamock.png',
       live: 'https://www.youtube.com/watch?v=fEuulO9LFdk',
+      github: 'https://github.com/objectobject-hr/service-aaron',
     },
     {
       name: 'HOME AWAY',
       description: 'Web Application & Systems Design',
+      stack: 'React, Redux, Express, NodeJS, PostgreSQL, AWS, NGINX',
       detailed:
         "Re-created a mock of Home Away's front-end implementation. Re-designed a back-end system to support increase in traffic. Created ETL process to extract 15 million datasets into MongoDB and PostgreSQL databases. Optimized server and database to support a 400% increase in traffic to popular endpoints. Containerized & deployed server and database onto EC2 instances for separate management of micro-services.",
       imgurl: 'images/portfolio/sdc.png',
       live: 'https://www.youtube.com/watch?v=O07YBywin34',
+      github: 'https://github.com/objectobject-hr/sdc-service-aaron',
     },
     {
       name: 'PokerVault',
       description: 'Mobile Application',
+      stack: 'SwiftUI, Redux, Core Data, VS App Center',
       detailed:
         'Worked on a small team to create a mobile application that helps users track their progress. Created analytical tools and features that displayed useful information to the user. Created the Sessions and New Session screens and functionality.',
       imgurl: 'images/portfolio/pokervault.jpeg',
-      live: '',
+      live: 'Coming soon to the iOS App Store',
+      github: '',
     },
     {
       name: 'Reading List',
       description: 'Command Line Application',
+      stack: 'NodeJS',
       detailed:
         'Created the entire application in NodeJS. Allows users to search for books using the Google Book API and add results to their own reading list. Both time and space complexities were considered. Written under a time contraint of 48 hours. Tested with mocha/chai.',
       imgurl: 'images/portfolio/readinglistcommandline.png',
       live: 'https://www.youtube.com/watch?v=SKSFZ_Y144k',
+      github: 'https://github.com/aaronsomo/google-books-node-app',
+    },
+    {
+      name: 'Natours',
+      description: 'Web Application',
+      stack: 'React, SASS (CSS)',
+      detailed:
+        'Created a React implementation of an HTML mocksite from an advanced CSS & styling course. The course strictly went over HTML, CSS styling. I took it upon myself to refactor the code into React components and modularized them for re-usability.',
+      imgurl: 'images/portfolio/reactnatours.png',
+      live: 'https://aaronsomo.github.io/react-natours/',
+      github: 'https://github.com/aaronsomo/react-natours',
+    },
+    {
+      name: 'World Annona',
+      description: 'Web Application',
+      stack: 'React, Express, NodeJS, PostgreSQL, AWS',
+      detailed:
+        'Created a React implementation of an HTML mocksite from an advanced CSS & styling course. The course strictly went over HTML, CSS styling. I took it upon myself to refactor the code into React components and modularized them for re-usability.',
+      imgurl: 'images/portfolio/annona.png',
+      live: 'https://worldannona.co',
+      github: 'https://github.com/No-Crop-Left-Behind',
     },
   ],
   testimonials: [

@@ -34,44 +34,127 @@ export default class Porfolio extends Component {
               <img src={resumeData.portfolio[0].imgurl} />
               <div className="description-box">
                 <h4>{resumeData.portfolio[0].name}</h4>
+                <p>{resumeData.portfolio[0].stack}</p>
                 <p>{resumeData.portfolio[0].detailed}</p>
+                <div className="projectlinks">
+                  <a
+                    href="https://github.com/aaronsomo/tourviewar-client"
+                    target="_blank"
+                  >
+                    Front-End
+                  </a>
+                  <a
+                    href="https://github.com/aaronsomo/tourviewar-server"
+                    target="_blank"
+                  >
+                    Back-End
+                  </a>
+                </div>
+                <div className="projectlinks">
+                  <a
+                    href="https://arobjectimages.s3-us-west-1.amazonaws.com/portfolio/TourViewAR.ipa"
+                    target="_blank"
+                  >
+                    iOS(.ipa)
+                  </a>
+                  <a
+                    href="https://arobjectimages.s3-us-west-1.amazonaws.com/portfolio/TourViewAR.apk"
+                    target="_blank"
+                  >
+                    Android(.apk)
+                  </a>
+                </div>
               </div>
             </div>
             <div id="modal-1" className="popup-modal mfp-hide">
               <img src={resumeData.portfolio[1].imgurl} />
               <div className="description-box">
                 <h4>{resumeData.portfolio[1].name}</h4>
+                <p>{resumeData.portfolio[1].stack}</p>
                 <p>{resumeData.portfolio[1].detailed}</p>
-                <a href={resumeData.portfolio[1].live} target="_blank">
-                  View
-                </a>
+                <div className="projectlinks">
+                  <a href={resumeData.portfolio[1].live} target="_blank">
+                    View
+                  </a>
+                  <a href={resumeData.portfolio[1].github} target="_blank">
+                    Github
+                  </a>
+                </div>
               </div>
             </div>
             <div id="modal-2" className="popup-modal mfp-hide">
               <img src={resumeData.portfolio[2].imgurl} />
               <div className="description-box">
                 <h4>{resumeData.portfolio[2].name}</h4>
+                <p>{resumeData.portfolio[2].stack}</p>
                 <p>{resumeData.portfolio[2].detailed}</p>
-                <a href={resumeData.portfolio[2].live} target="_blank">
-                  View
-                </a>
+                <div className="projectlinks">
+                  <a href={resumeData.portfolio[2].live} target="_blank">
+                    View
+                  </a>
+                  <a href={resumeData.portfolio[2].github} target="_blank">
+                    Github
+                  </a>
+                </div>
               </div>
             </div>
             <div id="modal-3" className="popup-modal mfp-hide">
               <img src={resumeData.portfolio[3].imgurl} />
               <div className="description-box">
                 <h4>{resumeData.portfolio[3].name}</h4>
+                <p>{resumeData.portfolio[3].stack}</p>
                 <p>{resumeData.portfolio[3].detailed}</p>
+                <a href={resumeData.portfolio[3].github} target="_blank">
+                  Coming to the iOS App Store soon
+                </a>
               </div>
             </div>
             <div id="modal-4" className="popup-modal mfp-hide">
               <img src={resumeData.portfolio[4].imgurl} />
               <div className="description-box">
                 <h4>{resumeData.portfolio[4].name}</h4>
+                <p>{resumeData.portfolio[4].stack}</p>
                 <p>{resumeData.portfolio[4].detailed}</p>
-                <a href={resumeData.portfolio[4].live} target="_blank">
-                  View
-                </a>
+                <div className="projectlinks">
+                  <a href={resumeData.portfolio[4].live} target="_blank">
+                    View
+                  </a>
+                  <a href={resumeData.portfolio[4].github} target="_blank">
+                    Github
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div id="modal-5" className="popup-modal mfp-hide">
+              <img src={resumeData.portfolio[5].imgurl} />
+              <div className="description-box">
+                <h4>{resumeData.portfolio[5].name}</h4>
+                <p>{resumeData.portfolio[5].stack}</p>
+                <p>{resumeData.portfolio[5].detailed}</p>
+                <div className="projectlinks">
+                  <a href={resumeData.portfolio[5].live} target="_blank">
+                    View
+                  </a>
+                  <a href={resumeData.portfolio[5].github} target="_blank">
+                    Github
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div id="modal-6" className="popup-modal mfp-hide">
+              <img src={resumeData.portfolio[6].imgurl} />
+              <div className="description-box">
+                <h4>{resumeData.portfolio[6].name}</h4>
+                <p>{resumeData.portfolio[6].stack}</p>
+                <p>{resumeData.portfolio[6].detailed}</p>
+                <div className="projectlinks">
+                  <a href={resumeData.portfolio[6].live} target="_blank">
+                    View
+                  </a>
+                  <a href={resumeData.portfolio[6].github} target="_blank">
+                    Github
+                  </a>
+                </div>
               </div>
             </div>
           </div>

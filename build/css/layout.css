@@ -696,6 +696,11 @@ ul#nav li.current a {
   margin-left: 24px;
 }
 
+.projectlinks {
+  display: flex;
+  justify-content: space-around;
+}
+
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
 
