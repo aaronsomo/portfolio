@@ -167,7 +167,7 @@ let resumeData = {
       description: 'Web Application',
       stack: 'React, Express, NodeJS, PostgreSQL, AWS',
       detailed:
-        'Created a React implementation of an HTML mocksite from an advanced CSS & styling course. The course strictly went over HTML, CSS styling. I took it upon myself to refactor the code into React components and modularized them for re-usability.',
+        "Created a wep application that was submitted as an entry into NASA's 2020 48-hour Space Apps Challenge Hackathon. The project aims to help end world hunger through connecting entities who have food surpluses with distribution centers in an effort to fight food waste during the Covid-19 pandemic.",
       imgurl: 'images/portfolio/annona.png',
       live: 'https://worldannona.co',
       github: 'https://github.com/No-Crop-Left-Behind',
