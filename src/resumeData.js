@@ -113,14 +113,14 @@ let resumeData = {
       github: 'https://github.com/aaronsomo/tourviewar-client',
     },
     {
-      name: 'IKEA MOCK',
+      name: 'Natours',
       description: 'Web Application',
-      stack: 'React, Express, NodeJS, MongoDB, PostgreSQL, Heroku',
+      stack: 'React, SASS (CSS)',
       detailed:
-        'Worked on a small team to design the IKEA product page. Built raw image carousels and modal components. Generated unique datasets to populate web application through simulated endpoints. Used Mongoose ORM and MongoDB to handle non-relational data set. Implemented a micro-service oriented architecture by combining multiple micro-services into a single proxy.',
-      imgurl: 'images/portfolio/ikeamock.png',
-      live: 'https://www.youtube.com/watch?v=fEuulO9LFdk',
-      github: 'https://github.com/objectobject-hr/service-aaron',
+        'Created a React implementation of an HTML mocksite from an advanced CSS & styling course. The course strictly went over HTML, CSS styling. I took it upon myself to refactor the code into React components and modularized them for re-usability.',
+      imgurl: 'images/portfolio/reactnatours.png',
+      live: 'https://aaronsomo.github.io/react-natours/',
+      github: 'https://github.com/aaronsomo/react-natours',
     },
     {
       name: 'HOME AWAY',
@@ -153,14 +153,14 @@ let resumeData = {
       github: 'https://github.com/aaronsomo/google-books-node-app',
     },
     {
-      name: 'Natours',
+      name: 'IKEA MOCK',
       description: 'Web Application',
-      stack: 'React, SASS (CSS)',
+      stack: 'React, Express, NodeJS, MongoDB, PostgreSQL, Heroku',
       detailed:
-        'Created a React implementation of an HTML mocksite from an advanced CSS & styling course. The course strictly went over HTML, CSS styling. I took it upon myself to refactor the code into React components and modularized them for re-usability.',
-      imgurl: 'images/portfolio/reactnatours.png',
-      live: 'https://aaronsomo.github.io/react-natours/',
-      github: 'https://github.com/aaronsomo/react-natours',
+        'Worked on a small team to design the IKEA product page. Built raw image carousels and modal components. Generated unique datasets to populate web application through simulated endpoints. Used Mongoose ORM and MongoDB to handle non-relational data set. Implemented a micro-service oriented architecture by combining multiple micro-services into a single proxy.',
+      imgurl: 'images/portfolio/ikeamock.png',
+      live: 'https://www.youtube.com/watch?v=fEuulO9LFdk',
+      github: 'https://github.com/objectobject-hr/service-aaron',
     },
     {
       name: 'World Annona',
