@@ -1,14 +1,95 @@
 import React, { Component } from 'react';
+
 export default class Contact extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      name: '',
+      email: '',
+      message: '',
+      disabled: false,
+      emailSent: null,
+    };
+  }
+
+  handleName = (event) => {
+    const target = event.target;
+    const value = event.target.value;
+
+    console.log(value);
+    this.setState({
+      name: value,
+    });
+  };
+
+  handleEmail = (event) => {
+    const target = event.target;
+    const value = event.target.value;
+
+    console.log(value);
+    this.setState({
+      email: value,
+    });
+  };
+
+  handleMessage = (event) => {
+    const target = event.target;
+    const value = event.target.value;
+
+    console.log(value);
+    this.setState({
+      message: value,
+    });
+  };
+
+  handleSubmit = () => {
+    console.log('handleSubmit!!');
+  };
+
   render() {
-    let resumeData = this.props.resumeData;
     return (
       <section id="contact">
         <div className="row section-head">
-          <div className="ten columns">
-            <p className="lead">
-              Feel free to contact me using any of the mediums below :3
-            </p>
+          <div className="twelve columns">
+            <h1 className="lead">Contact me here</h1>
+            <form onSubmit={this.handleSubmit}>
+              <label>
+                Name :
+                <input
+                  placeholder="Enter Name"
+                  value={this.state.name}
+                  onChange={this.handleName}
+                />
+              </label>
+              <label>
+                Email :
+                <input
+                  placeholder="Enter Email"
+                  value={this.state.email}
+                  onChange={this.handleEmail}
+                />
+              </label>
+              <label>
+                Message :
+                <textarea
+                  value={this.state.message}
+                  onChange={this.handleMessage}
+                />
+              </label>
+            </form>
+            <button
+              className="submit"
+              type="submit"
+              disabled={this.state.disabled}
+            >
+              SUBMIT
+            </button>
+
+            {this.state.emailSent === true && <p className="">Email Sent</p>}
+            {this.state.emailSent === false && (
+              <p className="">Email Not Sent</p>
+            )}
           </div>
         </div>
         {/* <div className="row">
