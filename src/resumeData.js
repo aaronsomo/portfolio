@@ -124,7 +124,7 @@ let resumeData = {
     },
     {
       name: 'HOME AWAY',
-      description: 'Web Application & Systems Design',
+      description: 'Full-Stack Web Application & Systems Design',
       stack: 'React, Redux, Express, NodeJS, MongoDB, PostgreSQL, AWS, NGINX',
       detailed:
         "Re-created a mock of Home Away's front-end implementation. Re-designed a back-end system to support increase in traffic. Created ETL process to extract 15 million datasets into MongoDB and PostgreSQL databases. Optimized server and database to support a 400% increase in traffic to popular endpoints. Containerized & deployed server and database onto EC2 instances for separate management of micro-services.",
