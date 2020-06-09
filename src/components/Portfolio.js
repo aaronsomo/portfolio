@@ -30,40 +30,15 @@ export default class Porfolio extends Component {
                   );
                 })}
             </div>
-            <div id="modal-3" className="popup-modal mfp-hide">
-              <img src={resumeData.portfolio[3].imgurl} />
+            <div id="modal-0" className="popup-modal mfp-hide">
+              <img src={resumeData.portfolio[0].imgurl} />
               <div className="description-box">
-                <h4>{resumeData.portfolio[3].name}</h4>
-                <p>{resumeData.portfolio[3].stack}</p>
-                <p>{resumeData.portfolio[3].detailed}</p>
-                <div className="projectlinks">
-                  <a
-                    href="https://github.com/aaronsomo/tourviewar-client"
-                    target="_blank"
-                  >
-                    Front-End
-                  </a>
-                  <a
-                    href="https://github.com/aaronsomo/tourviewar-server"
-                    target="_blank"
-                  >
-                    Back-End
-                  </a>
-                </div>
-                <div className="projectlinks">
-                  <a
-                    href="https://arobjectimages.s3-us-west-1.amazonaws.com/portfolio/TourViewAR.ipa"
-                    target="_blank"
-                  >
-                    iOS(.ipa)
-                  </a>
-                  <a
-                    href="https://arobjectimages.s3-us-west-1.amazonaws.com/portfolio/TourViewAR.apk"
-                    target="_blank"
-                  >
-                    Android(.apk)
-                  </a>
-                </div>
+                <h4>{resumeData.portfolio[0].name}</h4>
+                <p>{resumeData.portfolio[0].stack}</p>
+                <p>{resumeData.portfolio[0].detailed}</p>
+                <a href={resumeData.portfolio[0].github} target="_blank">
+                  Coming to the iOS App Store soon
+                </a>
               </div>
             </div>
             <div id="modal-1" className="popup-modal mfp-hide">
@@ -98,15 +73,40 @@ export default class Porfolio extends Component {
                 </div>
               </div>
             </div>
-            <div id="modal-0" className="popup-modal mfp-hide">
-              <img src={resumeData.portfolio[0].imgurl} />
+            <div id="modal-3" className="popup-modal mfp-hide">
+              <img src={resumeData.portfolio[3].imgurl} />
               <div className="description-box">
-                <h4>{resumeData.portfolio[0].name}</h4>
-                <p>{resumeData.portfolio[0].stack}</p>
-                <p>{resumeData.portfolio[0].detailed}</p>
-                <a href={resumeData.portfolio[0].github} target="_blank">
-                  Coming to the iOS App Store soon
-                </a>
+                <h4>{resumeData.portfolio[3].name}</h4>
+                <p>{resumeData.portfolio[3].stack}</p>
+                <p>{resumeData.portfolio[3].detailed}</p>
+                <div className="projectlinks">
+                  <a
+                    href="https://github.com/aaronsomo/tourviewar-client"
+                    target="_blank"
+                  >
+                    Front-End
+                  </a>
+                  <a
+                    href="https://github.com/aaronsomo/tourviewar-server"
+                    target="_blank"
+                  >
+                    Back-End
+                  </a>
+                </div>
+                <div className="projectlinks">
+                  <a
+                    href="https://arobjectimages.s3-us-west-1.amazonaws.com/portfolio/TourViewAR.ipa"
+                    target="_blank"
+                  >
+                    iOS(.ipa)
+                  </a>
+                  <a
+                    href="https://arobjectimages.s3-us-west-1.amazonaws.com/portfolio/TourViewAR.apk"
+                    target="_blank"
+                  >
+                    Android(.apk)
+                  </a>
+                </div>
               </div>
             </div>
             <div id="modal-4" className="popup-modal mfp-hide">
