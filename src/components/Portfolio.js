@@ -30,12 +30,12 @@ export default class Porfolio extends Component {
                   );
                 })}
             </div>
-            <div id="modal-0" className="popup-modal mfp-hide">
-              <img src={resumeData.portfolio[0].imgurl} />
+            <div id="modal-3" className="popup-modal mfp-hide">
+              <img src={resumeData.portfolio[3].imgurl} />
               <div className="description-box">
-                <h4>{resumeData.portfolio[0].name}</h4>
-                <p>{resumeData.portfolio[0].stack}</p>
-                <p>{resumeData.portfolio[0].detailed}</p>
+                <h4>{resumeData.portfolio[3].name}</h4>
+                <p>{resumeData.portfolio[3].stack}</p>
+                <p>{resumeData.portfolio[3].detailed}</p>
                 <div className="projectlinks">
                   <a
                     href="https://github.com/aaronsomo/tourviewar-client"
@@ -98,13 +98,13 @@ export default class Porfolio extends Component {
                 </div>
               </div>
             </div>
-            <div id="modal-3" className="popup-modal mfp-hide">
-              <img src={resumeData.portfolio[3].imgurl} />
+            <div id="modal-0" className="popup-modal mfp-hide">
+              <img src={resumeData.portfolio[0].imgurl} />
               <div className="description-box">
-                <h4>{resumeData.portfolio[3].name}</h4>
-                <p>{resumeData.portfolio[3].stack}</p>
-                <p>{resumeData.portfolio[3].detailed}</p>
-                <a href={resumeData.portfolio[3].github} target="_blank">
+                <h4>{resumeData.portfolio[0].name}</h4>
+                <p>{resumeData.portfolio[0].stack}</p>
+                <p>{resumeData.portfolio[0].detailed}</p>
+                <a href={resumeData.portfolio[0].github} target="_blank">
                   Coming to the iOS App Store soon
                 </a>
               </div>

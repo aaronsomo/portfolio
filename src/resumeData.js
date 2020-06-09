@@ -103,14 +103,14 @@ let resumeData = {
   ],
   portfolio: [
     {
-      name: 'TourViewAR',
-      description: 'Augmented Reality Mobile Application',
-      stack: 'React-Native, Redux, Express, NodeJS, PostgreSQL, AWS, Heroku',
+      name: 'PokerVault',
+      description: 'Mobile Application',
+      stack: 'SwiftUI, Redux, Core Data, VS App Center',
       detailed:
-        'Created a mobile application that allows users to view and create 360 degree tours/images in augmented reality. Created login, create tours, camera, image upload, 360 view, 360 edit view, and text/object edit-view screens and their functionalities. Implemented camera and file upload functionality. Set up Express server and queries to a PostgreSQL database. Worked on a team that facilitated a monolithic architecture for project workflow.',
-      imgurl: 'images/portfolio/tourviewarclient.png',
-      live: 'https://github.com/aaronsomo/tourviewar-client',
-      github: 'https://github.com/aaronsomo/tourviewar-client',
+        'Worked on a small team to create a mobile application that helps users track their progress. Created analytical tools and features that displayed useful information to the user. Created the Sessions and New Session screens and functionality.',
+      imgurl: 'images/portfolio/pokervault.png',
+      live: 'Coming soon to the iOS App Store',
+      github: '',
     },
     {
       name: 'Natours',
@@ -133,14 +133,14 @@ let resumeData = {
       github: 'https://github.com/objectobject-hr/sdc-service-aaron',
     },
     {
-      name: 'PokerVault',
-      description: 'Mobile Application',
-      stack: 'SwiftUI, Redux, Core Data, VS App Center',
+      name: 'TourViewAR',
+      description: 'Augmented Reality Mobile Application',
+      stack: 'React-Native, Redux, Express, NodeJS, PostgreSQL, AWS, Heroku',
       detailed:
-        'Worked on a small team to create a mobile application that helps users track their progress. Created analytical tools and features that displayed useful information to the user. Created the Sessions and New Session screens and functionality.',
-      imgurl: 'images/portfolio/pokervault.jpeg',
-      live: 'Coming soon to the iOS App Store',
-      github: '',
+        'Created a mobile application that allows users to view and create 360 degree tours/images in augmented reality. Created login, create tours, camera, image upload, 360 view, 360 edit view, and text/object edit-view screens and their functionalities. Implemented camera and file upload functionality. Set up Express server and queries to a PostgreSQL database. Worked on a team that facilitated a monolithic architecture for project workflow.',
+      imgurl: 'images/portfolio/tourviewarclient.png',
+      live: 'https://github.com/aaronsomo/tourviewar-client',
+      github: 'https://github.com/aaronsomo/tourviewar-client',
     },
     {
       name: 'Reading List',
@@ -154,7 +154,7 @@ let resumeData = {
     },
     {
       name: 'IKEA MOCK',
-      description: 'Web Application',
+      description: 'Full-Stack Web Application',
       stack: 'React, Express, NodeJS, MongoDB, PostgreSQL, Heroku',
       detailed:
         'Worked on a small team to design the IKEA product page. Built raw image carousels and modal components. Generated unique datasets to populate web application through simulated endpoints. Used Mongoose ORM and MongoDB to handle non-relational data set. Implemented a micro-service oriented architecture by combining multiple micro-services into a single proxy.',
@@ -164,7 +164,7 @@ let resumeData = {
     },
     {
       name: 'World Annona',
-      description: 'Web Application',
+      description: 'Full-Stack Web Application',
       stack: 'React, Express, NodeJS, PostgreSQL, AWS',
       detailed:
         "Created a wep application that was submitted as an entry into NASA's 2020 48-hour Space Apps Challenge Hackathon. The project aims to help end world hunger through connecting entities who have food surpluses with distribution centers in an effort to fight food waste during the Covid-19 pandemic.",
