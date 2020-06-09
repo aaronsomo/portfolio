@@ -107,7 +107,7 @@ let resumeData = {
       description: 'Augmented Reality Mobile Application',
       stack: 'React-Native, Redux, Express, NodeJS, PostgreSQL, AWS, Heroku',
       detailed:
-        'Created a mobile application that allows users to view and create 360 degree tours/images in augmented reality. Created login, create tours, camera, image upload, 360 view, 360 edit view, and text/object editview front-end modules. Implemented camera and file upload functionality. Worked on a team that facilitated a monolithic architecture for project workflow.',
+        'Created a mobile application that allows users to view and create 360 degree tours/images in augmented reality. Created login, create tours, camera, image upload, 360 view, 360 edit view, and text/object edit-view screens and their functionalities. Implemented camera and file upload functionality. Set up Express server and queries to a PostgreSQL database. Worked on a team that facilitated a monolithic architecture for project workflow.',
       imgurl: 'images/portfolio/tourviewarclient.png',
       live: 'https://github.com/aaronsomo/tourviewar-client',
       github: 'https://github.com/aaronsomo/tourviewar-client',
@@ -125,7 +125,7 @@ let resumeData = {
     {
       name: 'HOME AWAY',
       description: 'Web Application & Systems Design',
-      stack: 'React, Redux, Express, NodeJS, PostgreSQL, AWS, NGINX',
+      stack: 'React, Redux, Express, NodeJS, MongoDB, PostgreSQL, AWS, NGINX',
       detailed:
         "Re-created a mock of Home Away's front-end implementation. Re-designed a back-end system to support increase in traffic. Created ETL process to extract 15 million datasets into MongoDB and PostgreSQL databases. Optimized server and database to support a 400% increase in traffic to popular endpoints. Containerized & deployed server and database onto EC2 instances for separate management of micro-services.",
       imgurl: 'images/portfolio/sdc.png',
