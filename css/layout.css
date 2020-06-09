@@ -1145,8 +1145,9 @@ footer a:focus {
 
 /* copyright */
 footer .copyright {
-  margin: 0;
+  margin-bottom: 10;
   padding: 0;
+  color: #fff;
 }
 footer .copyright li {
   display: inline-block;
