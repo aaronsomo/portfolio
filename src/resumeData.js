@@ -50,6 +50,14 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: 'Terror Apps',
+      specialization: 'Front-End Software Engineer & Mobile Developer',
+      // MonthOfLeaving: 'Jan',
+      // YearOfLeaving: '2018',
+      Achievements:
+        "Designing the web application and contributing to the publicly available PokerVault iOS application. Taking intiative in tackling UI/UX designs and decisions. Leading Terror App's second mobile project.",
+    },
+    {
       CompanyName: 'Smrtlens.com',
       specialization: 'CEO/Co-Founder',
       // MonthOfLeaving: 'Jan',
@@ -74,7 +82,8 @@ let resumeData = {
         'Assistant Resident Engineer at Lisbon Road Bridge. Managed the construction of the bridge. Alleviated congestion during peak hours. Provided a safe route of travel for pedestrians. Assistant Resident Engineer at Minooka Road bridge. Co-managed bridge to accommodate 4 lanes of travel in anticipation of highway expansion, traffic, and neighborhood growth. A part of a team that designed infrastructure projects for District 3 in the State of Illinois.',
     },
   ],
-  skillsDescription: "A quick summary of some of the things I've frequented...",
+  skillsDescription: 'A quick summary of things that I frequent...',
+  skillsDescription2: '(please see resume for a comprehensive list)',
   skills: [
     {
       skillname: 'JavaScript',

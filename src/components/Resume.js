@@ -5,7 +5,7 @@ export default class Resume extends Component {
     return (
       <section id="resume">
         {/* <div>VIEW FULL RESUME HERE</div> */}
-        <div className="row education">
+        {/* <div className="row education">
           <div className="three columns header-col">
             <h1>
               <span>Education</span>
@@ -32,7 +32,7 @@ export default class Resume extends Component {
                 );
               })}
           </div>
-        </div>
+        </div> */}
         <div className="row work">
           <div className="three columns header-col">
             <h1>
@@ -69,7 +69,8 @@ export default class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <p>{resumeData.skillsDescription}</p>
+            <p1>{resumeData.skillsDescription}</p1>
+            <p>{resumeData.skillsDescription2}</p>
 
             <div className="bars">
               <ul className="skills">

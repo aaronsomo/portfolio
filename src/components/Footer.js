@@ -18,6 +18,9 @@ export default class Footer extends Component {
                   );
                 })}
             </ul>
+            <div className="footer">
+              <li className="copyright">Made by Aaron Southammavong</li>
+            </div>
           </div>
           <div id="go-top">
             <a className="smoothscroll" title="Back to Top" href="#home">
