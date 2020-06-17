@@ -118,7 +118,7 @@ let resumeData = {
       detailed:
         'Worked on a small team to create a mobile application that helps users track their progress. Created analytical tools and features that displayed useful information to the user. Created the Sessions and New Session screens and functionality.',
       imgurl: 'images/portfolio/pokervault.png',
-      live: 'Coming soon to the iOS App Store',
+      live: 'https://apps.apple.com/us/app/pokervault/id1510490314',
       github: '',
     },
     {
