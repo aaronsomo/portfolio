@@ -36,8 +36,8 @@ export default class Porfolio extends Component {
                 <h4>{resumeData.portfolio[0].name}</h4>
                 <p>{resumeData.portfolio[0].stack}</p>
                 <p>{resumeData.portfolio[0].detailed}</p>
-                <a href={resumeData.portfolio[0].github} target="_blank">
-                  Find in the iOS App Store Here
+                <a href={resumeData.portfolio[0].live} target="_blank">
+                  Find in the iOS App Store here
                 </a>
               </div>
             </div>

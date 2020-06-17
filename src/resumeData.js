@@ -55,7 +55,7 @@ let resumeData = {
       // MonthOfLeaving: 'Jan',
       // YearOfLeaving: '2018',
       Achievements:
-        "Designing the web application and contributing to the publicly available PokerVault iOS application. Taking intiative in tackling UI/UX designs and decisions. Leading Terror App's second mobile project.",
+        "Designing the web application and contributing to the publicly available PokerVault iOS application. Taking intiative in tackling UX/UI designs and decisions. Leading Terror App's second mobile project in addressing mental health.",
     },
     {
       CompanyName: 'Smrtlens.com',
