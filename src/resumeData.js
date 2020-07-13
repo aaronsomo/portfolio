@@ -77,7 +77,7 @@ let resumeData = {
       CompanyName: 'Illinois Department of Transportation',
       specialization: 'Civil Engineer',
       MonthOfLeaving: 'March',
-      YearOfLeaving: '2013',
+      YearOfLeaving: '2017',
       Achievements:
         'Assistant Resident Engineer at Lisbon Road Bridge. Managed the construction of the bridge. Alleviated congestion during peak hours. Provided a safe route of travel for pedestrians. Assistant Resident Engineer at Minooka Road bridge. Co-managed bridge to accommodate 4 lanes of travel in anticipation of highway expansion, traffic, and neighborhood growth. A part of a team that designed infrastructure projects for District 3 in the State of Illinois.',
     },
@@ -180,6 +180,16 @@ let resumeData = {
       imgurl: 'images/portfolio/annona.png',
       live: 'https://worldannona.co',
       github: 'https://github.com/No-Crop-Left-Behind',
+    },
+    {
+      name: 'Nature Collective',
+      description: 'Full-Stack Web Application',
+      stack: 'React, Express, NodeJS',
+      detailed:
+        "Created a wep application where users are able to search for images of nature, using any search term they'd like. It is a collection of public nature images found on Reddit.",
+      imgurl: 'images/portfolio/naturecollective.png',
+      live: 'https://aaronsomo.github.io/nature-collective',
+      github: 'https://github.com/aaronsomo/nature-collective',
     },
   ],
   testimonials: [
