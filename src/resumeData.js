@@ -50,6 +50,14 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: 'FanFood',
+      specialization: 'Front-End Software Engineer & Mobile Developer',
+      // MonthOfLeaving: 'Jan',
+      // YearOfLeaving: '2018',
+      Achievements:
+        'Maintaining and improving the progressive web application. Working on optimizing mobile performance for Android and iOS devices.',
+    },
+    {
       CompanyName: 'Terror Apps',
       specialization: 'Front-End Software Engineer & Mobile Developer',
       // MonthOfLeaving: 'Jan',
