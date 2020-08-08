@@ -55,7 +55,7 @@ let resumeData = {
       // MonthOfLeaving: 'Jan',
       // YearOfLeaving: '2018',
       Achievements:
-        'Maintaining and improving the FanFood website in addition to creating new websites for newly rolled out features. Maintaining and improving the progressive web application. Working on optimizing mobile performance for Android and iOS devices.',
+        'Maintaining and improving the FanFood website in addition to creating new websites for newly rolled out features. Maintaining and improving the consumer progressive web application. Working on optimizing mobile performance for Android and iOS devices.',
     },
     {
       CompanyName: 'Terror Apps',
