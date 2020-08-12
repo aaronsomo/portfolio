@@ -51,7 +51,8 @@ let resumeData = {
   work: [
     {
       CompanyName: 'FanFood',
-      specialization: 'Front-End Software Engineer & Mobile Developer',
+      link: 'https://www.fanfoodapp.com/',
+      specialization: 'Software Engineer & Mobile Developer',
       // MonthOfLeaving: 'Jan',
       // YearOfLeaving: '2018',
       Achievements:
