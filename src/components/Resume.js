@@ -46,7 +46,19 @@ export default class Resume extends Component {
                 return (
                   <div className="row item" key={index}>
                     <div className="twelve columns" key={index}>
-                      <h3>{item.CompanyName}</h3>
+                      {item.link ? (
+                        <h3>
+                          <a
+                            class="btn btn-link"
+                            href={item.link}
+                            target="_blank"
+                          >
+                            {item.CompanyName}
+                          </a>
+                        </h3>
+                      ) : (
+                        <h3>{item.CompanyName}</h3>
+                      )}
                       <p className="info">
                         {item.specialization}
                         <span>&bull;</span>{' '}
