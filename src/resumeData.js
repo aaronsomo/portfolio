@@ -192,13 +192,23 @@ let resumeData = {
     },
     {
       name: 'Nature Collective',
-      description: 'Full-Stack Web Application',
-      stack: 'React, Express, NodeJS',
+      description: 'Web Application',
+      stack: 'React, SASS (CSS)',
       detailed:
-        "Created a wep application where users are able to search for images of nature, using any search term they'd like. It is a collection of public nature images found on Reddit.",
+        "Created a web application where users are able to search for images of nature, using any search term they'd like. It is a collection of public nature images found on Reddit.",
       imgurl: 'images/portfolio/naturecollective.png',
       live: 'https://aaronsomo.github.io/nature-collective',
       github: 'https://github.com/aaronsomo/nature-collective',
+    },
+    {
+      name: 'Building Eats',
+      description: 'Web Application',
+      stack: 'React, Styled Components',
+      detailed:
+        'Created a B2B/B2C web application for an endeavor that allows prospective partners to reach out to a startup food delivery service.',
+      imgurl: 'images/portfolio/buildingeats.png',
+      live: 'https://buildingeats.com',
+      github: 'https://github.com/aaronsomo/building-eats',
     },
   ],
   testimonials: [
