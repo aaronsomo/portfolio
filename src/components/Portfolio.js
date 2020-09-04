@@ -173,6 +173,22 @@ export default class Porfolio extends Component {
                 </div>
               </div>
             </div>
+            <div id="modal-8" className="popup-modal mfp-hide">
+              <img src={resumeData.portfolio[8].imgurl} />
+              <div className="description-box">
+                <h4>{resumeData.portfolio[8].name}</h4>
+                <p>{resumeData.portfolio[8].stack}</p>
+                <p>{resumeData.portfolio[8].detailed}</p>
+                <div className="projectlinks">
+                  <a href={resumeData.portfolio[8].live} target="_blank">
+                    View
+                  </a>
+                  <a href={resumeData.portfolio[8].github} target="_blank">
+                    Github
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

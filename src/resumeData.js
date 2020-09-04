@@ -141,14 +141,14 @@ let resumeData = {
       github: 'https://github.com/aaronsomo/react-natours',
     },
     {
-      name: 'HOME AWAY',
-      description: 'Full-Stack Web Application & Systems Design',
-      stack: 'React, Redux, Express, NodeJS, MongoDB, PostgreSQL, AWS, NGINX',
+      name: 'Building Eats',
+      description: 'Web Application',
+      stack: 'React, Styled Components',
       detailed:
-        "Re-created a mock of Home Away's front-end implementation. Re-designed a back-end system to support increase in traffic. Created ETL process to extract 15 million datasets into MongoDB and PostgreSQL databases. Optimized server and database to support a 400% increase in traffic to popular endpoints. Containerized & deployed server and database onto EC2 instances for separate management of micro-services.",
-      imgurl: 'images/portfolio/sdc.png',
-      live: 'https://www.youtube.com/watch?v=O07YBywin34',
-      github: 'https://github.com/objectobject-hr/sdc-service-aaron',
+        'Created a B2B/B2C web application for a venture that allows prospective partners to reach out to a startup food delivery service.',
+      imgurl: 'images/portfolio/buildingeats.png',
+      live: 'https://buildingeats.com',
+      github: 'https://github.com/aaronsomo/building-eats',
     },
     {
       name: 'TourViewAR',
@@ -169,6 +169,16 @@ let resumeData = {
       imgurl: 'images/portfolio/readinglistcommandline.png',
       live: 'https://www.youtube.com/watch?v=SKSFZ_Y144k',
       github: 'https://github.com/aaronsomo/google-books-node-app',
+    },
+    {
+      name: 'HOME AWAY',
+      description: 'Full-Stack Web Application & Systems Design',
+      stack: 'React, Redux, Express, NodeJS, MongoDB, PostgreSQL, AWS, NGINX',
+      detailed:
+        "Re-created a mock of Home Away's front-end implementation. Re-designed a back-end system to support increase in traffic. Created ETL process to extract 15 million datasets into MongoDB and PostgreSQL databases. Optimized server and database to support a 400% increase in traffic to popular endpoints. Containerized & deployed server and database onto EC2 instances for separate management of micro-services.",
+      imgurl: 'images/portfolio/sdc.png',
+      live: 'https://www.youtube.com/watch?v=O07YBywin34',
+      github: 'https://github.com/objectobject-hr/sdc-service-aaron',
     },
     {
       name: 'IKEA MOCK',
@@ -199,16 +209,6 @@ let resumeData = {
       imgurl: 'images/portfolio/naturecollective.png',
       live: 'https://aaronsomo.github.io/nature-collective',
       github: 'https://github.com/aaronsomo/nature-collective',
-    },
-    {
-      name: 'Building Eats',
-      description: 'Web Application',
-      stack: 'React, Styled Components',
-      detailed:
-        'Created a B2B/B2C web application for an endeavor that allows prospective partners to reach out to a startup food delivery service.',
-      imgurl: 'images/portfolio/buildingeats.png',
-      live: 'https://buildingeats.com',
-      github: 'https://github.com/aaronsomo/building-eats',
     },
   ],
   testimonials: [
