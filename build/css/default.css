@@ -821,7 +821,7 @@ input[type='checkbox'] {
 .columns {
   position: relative;
   padding: 0 20px;
-  min-height: 1px;
+  min-height: 175px;
   float: left;
 }
 .column.centered,
