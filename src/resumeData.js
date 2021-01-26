@@ -56,10 +56,11 @@ let resumeData = {
       // MonthOfLeaving: 'Jan',
       // YearOfLeaving: '2018',
       Achievements:
-        'Maintaining and improving the FanFood website in addition to creating new websites for newly rolled out features. Maintaining and improving the consumer progressive web application. Working on optimizing mobile performance for Android and iOS devices.',
+        'Adding new features and refining existing features on the consumer PWA. Improving existing managing portal app for partners and clients. Working on new features and streamlining performance on Android and iOS devices. Created an entire full-stack site for BuildingEats, a supplemental FanFood B2C venture.',
     },
     {
       CompanyName: 'Terror Apps',
+      link: 'https://terror.llc/',
       specialization: 'Front-End Software Engineer & Mobile Developer',
       // MonthOfLeaving: 'Jan',
       // YearOfLeaving: '2018',
@@ -147,7 +148,7 @@ let resumeData = {
       detailed:
         'Created a B2B/B2C web application for a venture that allows prospective partners to reach out to a startup food delivery service.',
       imgurl: 'images/portfolio/buildingeats.png',
-      live: 'https://buildingeats.com',
+      live: 'https://order.fanfoodapp.com/buildingeats',
       github: 'https://github.com/aaronsomo/building-eats',
     },
     {
