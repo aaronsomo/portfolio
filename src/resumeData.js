@@ -52,11 +52,20 @@ let resumeData = {
     {
       CompanyName: 'FanFood',
       link: 'https://www.fanfoodapp.com/',
-      specialization: 'Software Engineer & Mobile Developer',
+      specialization: 'Full-Stack Software Engineer & Mobile Developer',
       // MonthOfLeaving: 'Jan',
       // YearOfLeaving: '2018',
       Achievements:
         'Adding new features and refining existing features on the consumer PWA. Improving existing managing portal app for partners and clients. Working on new features and streamlining performance on Android and iOS devices. Created an entire full-stack site for BuildingEats, a supplemental FanFood B2C venture.',
+    },
+    {
+      CompanyName: 'Cryptocurrency and Stock Market',
+      link: 'https://www.tradingview.com/u/xatxay/',
+      specialization: 'Investor/Trader & Blockchain Enthusiast',
+      // MonthOfLeaving: 'Jan',
+      // YearOfLeaving: '2019',
+      Achievements:
+        "An avid blockchain technology enthusiast; cryptocurrency and stock market investor and trader. Charting technical analyses on cryptocurrencies and stocks using arithmetic principles and trends, such as the accumulation/distribution lines, MACD, RSI, Elliot Wave Theory, and more. Purely as a hobby, none of it as financial advice.",
     },
     {
       CompanyName: 'Terror Apps',
@@ -70,8 +79,8 @@ let resumeData = {
     {
       CompanyName: 'Smrtlens.com',
       specialization: 'CEO/Co-Founder',
-      // MonthOfLeaving: 'Jan',
-      // YearOfLeaving: '2018',
+      MonthOfLeaving: 'Jan',
+      YearOfLeaving: '2019',
       Achievements:
         "Designing and implementing business operations. Providing a means of protecting peoples' eyes from technologies that emit blue-light. Managing a small team that handles order processing and distribution.",
     },
@@ -96,10 +105,10 @@ let resumeData = {
   skillsDescription2: '(please see resume for a comprehensive list)',
   skills: [
     {
-      skillname: 'JavaScript',
+      skillname: 'JavaScript / TypeScript',
     },
     {
-      skillname: 'React',
+      skillname: 'React & React-Native',
     },
     {
       skillname: 'Swift',
@@ -117,10 +126,20 @@ let resumeData = {
       skillname: 'MongoDB',
     },
     {
-      skillname: 'PingPong',
+      skillname: 'PingPong / Baking',
     },
   ],
   portfolio: [
+    {
+      name: 'FanFood App',
+      description: 'Mobile Application',
+      stack: 'React-Native, NodeJS, PostgreSQL, TypeORM, AWS',
+      detailed:
+        'Optimizing the mobile application for both Android and iOS devices. Adding new features to streamline user experience.',
+      imgurl: 'images/portfolio/fanfoodapp.png',
+      live: 'https://apps.apple.com/us/app/fanfood-app/id1153019375',
+      github: 'https://play.google.com/store/apps/details?id=com.fanfoodapp.fanfoodapp&hl=en_US&gl=US',
+    },
     {
       name: 'PokerVault',
       description: 'Mobile Application',
@@ -132,6 +151,16 @@ let resumeData = {
       github: '',
     },
     {
+      name: 'BuildingEats',
+      description: 'Web Application',
+      stack: 'React, Styled Components, NodeJS, PostgreSQL, TypeORM, AWS',
+      detailed:
+        'Created a full-stack web application for a venture that allows buildings and food services to partner up for a mobile, contactless ordering/dining solution.',
+      imgurl: 'images/portfolio/buildingeats.png',
+      live: 'https://order.fanfoodapp.com/buildingeats',
+      github: 'https://github.com/aaronsomo/building-eats',
+    },
+    {
       name: 'Natours',
       description: 'Web Application',
       stack: 'React, SASS (CSS)',
@@ -140,16 +169,6 @@ let resumeData = {
       imgurl: 'images/portfolio/reactnatours.png',
       live: 'https://aaronsomo.github.io/react-natours/',
       github: 'https://github.com/aaronsomo/react-natours',
-    },
-    {
-      name: 'Building Eats',
-      description: 'Web Application',
-      stack: 'React, Styled Components',
-      detailed:
-        'Created a B2B/B2C web application for a venture that allows prospective partners to reach out to a startup food delivery service.',
-      imgurl: 'images/portfolio/buildingeats.png',
-      live: 'https://order.fanfoodapp.com/buildingeats',
-      github: 'https://github.com/aaronsomo/building-eats',
     },
     {
       name: 'TourViewAR',
