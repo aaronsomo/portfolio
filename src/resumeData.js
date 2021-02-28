@@ -135,7 +135,7 @@ let resumeData = {
       description: 'Mobile Application',
       stack: 'React-Native, NodeJS, PostgreSQL, TypeORM, AWS',
       detailed:
-        'Optimizing the mobile application for both Android and iOS devices. Adding new features to streamline user experience.',
+        'Optimizing the mobile application for both Android and iOS devices. Improved existing features and screens to streamline user experience. Added pickup/delivery options, order ahead and event features, and handled ordering and checkout process. Implemented backend changes that were required for all additional features, as well as optimizing previous systems.',
       imgurl: 'images/portfolio/fanfoodapp.png',
       live: 'https://apps.apple.com/us/app/fanfood-app/id1153019375',
       github: 'https://play.google.com/store/apps/details?id=com.fanfoodapp.fanfoodapp&hl=en_US&gl=US',

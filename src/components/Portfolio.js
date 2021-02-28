@@ -38,10 +38,10 @@ export default class Porfolio extends Component {
                 <p>{resumeData.portfolio[0].detailed}</p>
                 <div className="projectlinks">
                   <a href={resumeData.portfolio[0].live} target="_blank">
-                    Find in the iOS App Store here
-                  </a>
+                    iOS
+                  </a><br/>
                   <a href={resumeData.portfolio[0].github} target="_blank">
-                    Find in the Google Play Store here
+                    Android
                   </a>
                 </div>
               </div>
