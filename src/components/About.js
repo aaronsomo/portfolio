@@ -19,9 +19,9 @@ export default class About extends Component {
                 <p className="address">
                   <span>{resumeData.name}</span>
                   <br></br>
-                  <span>E-Mail: {resumeData.address}</span>
+                  <span>E-Mail: <a href={`mailto:${resumeData.address}`}>ae.southammavong@gmail.com</a></span>
                   <br></br>
-                  <span>LinkedIn: {resumeData.linkedinId}</span>
+                  <span>LinkedIn: <a href={resumeData.linkedinId}>https://www.linkedin.com/in/aaronsouthammavong/</a></span>
                 </p>
               </div>
             </div>

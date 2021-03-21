@@ -18,18 +18,23 @@ let resumeData = {
       className: 'fa fa-github',
     },
     {
+      name: 'instagram',
+      url: 'https://www.instagram.com/aaronek/',
+      className: 'fa fa-instagram',
+    },
+    {
       name: 'twitter',
       url: 'http://twitter.com/aaroneksouth',
       className: 'fa fa-twitter',
     },
     {
       name: 'resume',
-      url: 'https://resume.creddle.io/resume/g9yezxvbe6n',
+      url: 'https://drive.google.com/file/d/1hEz6VlkGXt9iy2H32uqmwl5QMISbFnEL/view?usp=sharing',
       className: 'fas fa-file-alt',
     },
   ],
   aboutme:
-    "Welcome! I'm Aaron and I have a knack for building creative and meaningful things, be it a bridge in Chicago or a web application on the Internet. As a former Civil Engineer, I’ve worked with different teams to utilize my creative nature in designing and managing many projects, but they haven’t quite filled that void - that curiosity in seeing an idea, solving issues, and having that idea realized. Software Engineering has me expressing that passion, as I take on more challenges, and I couldn't be happier.",
+    `Hey there! My name's Aaron Southammavong. I'm nothing more than your average eager learner with a penchant for creating... just... things. From building lego bridges as a toddler to designing and managing the construction of real bridges in the city of Chicago; from thinking of app ideas to launching three successful apps in both the iOS App Store and Google Play Store; from eating, traveling, dancing, and laughing to making video montages of those moments - I explore multiple facets of life to create "somethings" out of "not-so-nothings." I also bake a lot and can give you a run for your money in ping pong. I truly live to enjoy life and help others do the same.`,
   address: 'ae.southammavong@gmail.com',
   phone: '+ 1 ( 8 4 7 ) 2 7 1 - 6 3 0 7',
   education: [
@@ -70,33 +75,33 @@ let resumeData = {
     {
       CompanyName: 'Terror Apps',
       link: 'https://terror.llc/',
-      specialization: 'Front-End Software Engineer & Mobile Developer',
-      // MonthOfLeaving: 'Jan',
-      // YearOfLeaving: '2018',
+      specialization: 'Software Engineer & Mobile Developer',
+      MonthOfLeaving: 'March 2020',
+      YearOfLeaving: 'March 2021',
       Achievements:
         "Designing the web application and contributing to the publicly available PokerVault iOS application. Taking intiative in tackling UX/UI designs and decisions. Leading Terror App's second mobile project in addressing mental health.",
     },
     {
       CompanyName: 'Smrtlens.com',
       specialization: 'CEO/Co-Founder',
-      MonthOfLeaving: 'Jan',
-      YearOfLeaving: '2019',
+      MonthOfLeaving: 'March 2019',
+      YearOfLeaving: 'April 2020',
       Achievements:
         "Designing and implementing business operations. Providing a means of protecting peoples' eyes from technologies that emit blue-light. Managing a small team that handles order processing and distribution.",
     },
     {
       CompanyName: 'Infrastructure Engineering, Inc',
       specialization: 'Civil Engineer',
-      MonthOfLeaving: 'September',
-      YearOfLeaving: '2019',
+      MonthOfLeaving: 'March 2017',
+      YearOfLeaving: 'September 2019',
       Achievements:
         'A part of a team that managed the construction of a safe pedestrian bridge path/walkway for the community that alleviated pedestrian congestion during peak hours. A part of a team that installed a community park for a neighborhood. Redesigned hundreds of pedestrian sidewalks and intersections to accommodate ADA standards and address drainage problems, among other issues.',
     },
     {
       CompanyName: 'Illinois Department of Transportation',
       specialization: 'Civil Engineer',
-      MonthOfLeaving: 'March',
-      YearOfLeaving: '2017',
+      MonthOfLeaving: 'June 2013',
+      YearOfLeaving: 'March 2017',
       Achievements:
         'Assistant Resident Engineer at Lisbon Road Bridge. Managed the construction of the bridge. Alleviated congestion during peak hours. Provided a safe route of travel for pedestrians. Assistant Resident Engineer at Minooka Road bridge. Co-managed bridge to accommodate 4 lanes of travel in anticipation of highway expansion, traffic, and neighborhood growth. A part of a team that designed infrastructure projects for District 3 in the State of Illinois.',
     },

@@ -19,7 +19,7 @@ export default class Footer extends Component {
                 })}
             </ul>
             <div className="footer">
-              <li className="copyright">c.2020, made by Aaron Southammavong</li>
+              <li className="copyright">c.2021, made by Aaron Southammavong</li>
             </div>
           </div>
           <div id="go-top">
