@@ -53,7 +53,7 @@ export default class Porfolio extends Component {
                 <p>{resumeData.portfolio[1].stack}</p>
                 <p>{resumeData.portfolio[1].detailed}</p>
                 <a href={resumeData.portfolio[1].live} target="_blank">
-                  Find in the iOS App Store here
+                  iOS App Store
                 </a>
               </div>
             </div>
