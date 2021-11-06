@@ -29,7 +29,7 @@ let resumeData = {
     },
     {
       name: 'resume',
-      url: 'https://drive.google.com/file/d/1hEz6VlkGXt9iy2H32uqmwl5QMISbFnEL/view?usp=sharing',
+      url: 'https://drive.google.com/file/d/1HuVhluAAgIno0VopXmrwDN5791QEMahp/view?usp=sharing',
       className: 'fas fa-file-alt',
     },
   ],
@@ -55,22 +55,31 @@ let resumeData = {
   ],
   work: [
     {
-      CompanyName: 'FanFood',
-      link: 'https://www.fanfoodapp.com/',
-      specialization: 'Full-Stack Software Engineer & Mobile Developer',
+      CompanyName: 'Sporttrade',
+      link: 'https://www.getsporttrade.com/',
+      specialization: 'Full-Stack Software Engineer',
       // MonthOfLeaving: 'Jan',
       // YearOfLeaving: '2018',
       Achievements:
-        'Adding new features and refining existing features on the consumer PWA. Improving existing managing portal app for partners and clients. Working on new features and streamlining performance on Android and iOS devices. Created an entire full-stack site for BuildingEats, a supplemental FanFood B2C venture.',
+        "Involved in a few of Sporttrade's web applications and internal tooling. Working on internal market operations dashboard. Created an auditing tool/web application from scratch using JavaScript and Python technologies. Helping set up a style guide and creating re-useable higher ordered components for the Sporttrade ecosystem.",
     },
     {
-      CompanyName: 'Cryptocurrency and Stock Market',
+      CompanyName: 'Blockchain Researcher, Cryptocurrency & Stock Market Investor',
       link: 'https://www.tradingview.com/u/xatxay/',
-      specialization: 'Investor/Trader & Blockchain Enthusiast',
+      specialization: 'Blockchain Enthusiast & Market Investor/Trader',
       // MonthOfLeaving: 'Jan',
       // YearOfLeaving: '2019',
       Achievements:
         "An avid blockchain technology enthusiast; cryptocurrency and stock market investor and trader. Charting technical analyses on cryptocurrencies and stocks using arithmetic principles and trends, such as the accumulation/distribution lines, MACD, RSI, Elliot Wave Theory, and more. Purely as a hobby, none of it as financial advice.",
+    },
+    {
+      CompanyName: 'FanFood',
+      link: 'https://www.fanfoodapp.com/',
+      specialization: 'Full-Stack Software Engineer & Mobile Developer',
+      MonthOfLeaving: 'July 2020',
+      YearOfLeaving: 'July 2021',
+      Achievements:
+        'Added new features and refined existing features on the consumer PWA. Improved managing portal app for partners and clients. Worked on new features and streamlined performance on Android and iOS devices. Created an entire full-stack site for BuildingEats, a supplemental FanFood B2C venture.',
     },
     {
       CompanyName: 'Terror Apps',
