@@ -379,10 +379,10 @@ ul#nav li.current a {
   -moz-animation: swift 2s ease;
   -webkit-animation: swift 2s ease;
 }
-.express {
+.web3js {
   width: 90%;
-  -moz-animation: express 2s ease;
-  -webkit-animation: express 2s ease;
+  -moz-animation: web3js 2s ease;
+  -webkit-animation: web3js 2s ease;
 }
 .nodejs {
   width: 90%;
@@ -429,7 +429,7 @@ ul#nav li.current a {
     width: 75%;
   }
 }
-@-moz-keyframes express {
+@-moz-keyframes web3js {
   0% {
     width: 0px;
   }
@@ -496,7 +496,7 @@ ul#nav li.current a {
     width: 75%;
   }
 }
-@-webkit-keyframes express {
+@-webkit-keyframes web3js {
   0% {
     width: 0px;
   }
