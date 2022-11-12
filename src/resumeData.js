@@ -29,7 +29,7 @@ let resumeData = {
     },
     {
       name: 'resume',
-      url: 'https://drive.google.com/file/d/1HuVhluAAgIno0VopXmrwDN5791QEMahp/view?usp=sharing',
+      url: 'https://drive.google.com/file/d/164_bmy5Ao61MyRj8fZvWrMggq3p4irsh/view?usp=sharing',
       className: 'fas fa-file-alt',
     },
   ],
@@ -55,13 +55,22 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: 'Secret Garden',
+      link: 'https://secretgarden.fm/',
+      specialization: 'Core Web3 Full-Stack Engineer',
+      // MonthOfLeaving: 'February 2022',
+      // YearOfLeaving: 'September 2022',
+      Achievements:
+        "One of the core engineers exploring the NFT space for something more tangible than a profile picture or a simple jpeg. Enabling creative accessibility to users with easy-to-use interface. Helping create the very first interactive audiovisual NFT experience, selling out producer releases with over 300+ ethereum in trading volume. Maintaining positive product direction, retaining over 70% unique NFT holders across 4 collections.",
+    },
+    {
       CompanyName: 'Sporttrade',
       link: 'https://www.getsporttrade.com/',
       specialization: 'Full-Stack Software Engineer',
-      // MonthOfLeaving: 'Jan',
-      // YearOfLeaving: '2018',
+      MonthOfLeaving: 'May 2021',
+      YearOfLeaving: 'September 2022',
       Achievements:
-        "Involved in a few of Sporttrade's web applications and internal tooling. Working on internal market operations dashboard. Created an auditing tool/web application from scratch using JavaScript and Python technologies. Helping set up a style guide and creating re-useable higher ordered components for the Sporttrade ecosystem.",
+        "Involved in a few of Sporttrade's web applications and internal tooling. Worked on internal market operations dashboard. Created an auditing tool/web application from scratch using JavaScript and Python technologies. Helped set up a style guide and creating re-useable higher ordered components for the Sporttrade ecosystem.",
     },
     {
       CompanyName: 'Blockchain Researcher, Cryptocurrency & Stock Market Investor',
@@ -144,6 +153,16 @@ let resumeData = {
     },
   ],
   portfolio: [
+    {
+      name: 'Secret Garden',
+      description: 'Interactive Audiovisual Experience',
+      stack: 'React, NodeJS, MongoDB, Web3js, Ethersjs, DigitalOcean',
+      detailed:
+        "Iterating on consumer facing user experience and user interface design to be more intuitive. Added customer-first features that retained 85% of the user base for subsequent product release. Experimented with concepts to become the world's first interactive music NFT.",
+      imgurl: 'images/portfolio/secretgarden.png',
+      live: 'https://secretgarden.fm',
+      github: 'https://opensea.io/SecretGarden?tab=created'
+    },
     {
       name: 'FanFood App',
       description: 'Mobile Application',

@@ -38,10 +38,10 @@ export default class Porfolio extends Component {
                 <p>{resumeData.portfolio[0].detailed}</p>
                 <div className="projectlinks">
                   <a href={resumeData.portfolio[0].live} target="_blank">
-                    iOS
+                    View
                   </a><br/>
                   <a href={resumeData.portfolio[0].github} target="_blank">
-                    Android
+                    OpenSea
                   </a>
                 </div>
               </div>
@@ -52,9 +52,14 @@ export default class Porfolio extends Component {
                 <h4>{resumeData.portfolio[1].name}</h4>
                 <p>{resumeData.portfolio[1].stack}</p>
                 <p>{resumeData.portfolio[1].detailed}</p>
-                <a href={resumeData.portfolio[1].live} target="_blank">
-                  iOS App Store
-                </a>
+                <div className="projectlinks">
+                  <a href={resumeData.portfolio[1].live} target="_blank">
+                    iOS
+                  </a><br/>
+                  <a href={resumeData.portfolio[1].github} target="_blank">
+                    Android
+                  </a>
+                </div>
               </div>
             </div>
             <div id="modal-2" className="popup-modal mfp-hide">
@@ -63,14 +68,9 @@ export default class Porfolio extends Component {
                 <h4>{resumeData.portfolio[2].name}</h4>
                 <p>{resumeData.portfolio[2].stack}</p>
                 <p>{resumeData.portfolio[2].detailed}</p>
-                <div className="projectlinks">
-                  <a href={resumeData.portfolio[2].live} target="_blank">
-                    View
-                  </a>
-                  <a href={resumeData.portfolio[2].github} target="_blank">
-                    Github
-                  </a>
-                </div>
+                <a href={resumeData.portfolio[2].live} target="_blank">
+                  iOS App Store
+                </a>
               </div>
             </div>
             <div id="modal-3" className="popup-modal mfp-hide">
@@ -95,6 +95,22 @@ export default class Porfolio extends Component {
                 <h4>{resumeData.portfolio[4].name}</h4>
                 <p>{resumeData.portfolio[4].stack}</p>
                 <p>{resumeData.portfolio[4].detailed}</p>
+                <div className="projectlinks">
+                  <a href={resumeData.portfolio[4].live} target="_blank">
+                    View
+                  </a>
+                  <a href={resumeData.portfolio[4].github} target="_blank">
+                    Github
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div id="modal-5" className="popup-modal mfp-hide">
+              <img src={resumeData.portfolio[5].imgurl} />
+              <div className="description-box">
+                <h4>{resumeData.portfolio[5].name}</h4>
+                <p>{resumeData.portfolio[5].stack}</p>
+                <p>{resumeData.portfolio[5].detailed}</p>
                 <div className="projectlinks">
                   <a
                     href="https://github.com/aaronsomo/tourviewar-client"
@@ -121,22 +137,6 @@ export default class Porfolio extends Component {
                     target="_blank"
                   >
                     Android(.apk)
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div id="modal-5" className="popup-modal mfp-hide">
-              <img src={resumeData.portfolio[5].imgurl} />
-              <div className="description-box">
-                <h4>{resumeData.portfolio[5].name}</h4>
-                <p>{resumeData.portfolio[5].stack}</p>
-                <p>{resumeData.portfolio[5].detailed}</p>
-                <div className="projectlinks">
-                  <a href={resumeData.portfolio[5].live} target="_blank">
-                    View
-                  </a>
-                  <a href={resumeData.portfolio[5].github} target="_blank">
-                    Github
                   </a>
                 </div>
               </div>
@@ -200,6 +200,22 @@ export default class Porfolio extends Component {
                     View
                   </a>
                   <a href={resumeData.portfolio[9].github} target="_blank">
+                    Github
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div id="modal-10" className="popup-modal mfp-hide">
+              <img src={resumeData.portfolio[10].imgurl} />
+              <div className="description-box">
+                <h4>{resumeData.portfolio[10].name}</h4>
+                <p>{resumeData.portfolio[10].stack}</p>
+                <p>{resumeData.portfolio[10].detailed}</p>
+                <div className="projectlinks">
+                  <a href={resumeData.portfolio[10].live} target="_blank">
+                    View
+                  </a>
+                  <a href={resumeData.portfolio[10].github} target="_blank">
                     Github
                   </a>
                 </div>
