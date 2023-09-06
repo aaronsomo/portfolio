@@ -66,7 +66,7 @@ let resumeData = {
     {
       CompanyName: 'Secret Garden',
       link: 'https://secretgarden.fm/',
-      specialization: 'Core Web3 Full-Stack Engineer',
+      specialization: 'Founding Engineer',
       MonthOfLeaving: 'February 2022',
       YearOfLeaving: 'January 2023',
       Achievements:
@@ -75,7 +75,7 @@ let resumeData = {
     {
       CompanyName: 'Sporttrade',
       link: 'https://www.getsporttrade.com/',
-      specialization: 'Full-Stack Software Engineer',
+      specialization: 'Senior Software Engineer',
       MonthOfLeaving: 'May 2021',
       YearOfLeaving: 'September 2022',
       Achievements:
@@ -93,7 +93,7 @@ let resumeData = {
     {
       CompanyName: 'FanFood',
       link: 'https://www.fanfoodapp.com/',
-      specialization: 'Full-Stack Software Engineer & Mobile Developer',
+      specialization: 'Senior Full-Stack Software Engineer & Mobile Developer',
       MonthOfLeaving: 'July 2020',
       YearOfLeaving: 'July 2021',
       Achievements:
