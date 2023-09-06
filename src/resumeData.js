@@ -55,11 +55,20 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: 'Protiviti',
+      link: 'https://www.protiviti.com/',
+      specialization: 'Lead Software Engineer',
+      // MonthOfLeaving: 'February 2022',
+      // YearOfLeaving: 'September 2022',
+      Achievements:
+        "Working with numerous clients on architecting systems and implementing solutions.",
+    },
+    {
       CompanyName: 'Secret Garden',
       link: 'https://secretgarden.fm/',
       specialization: 'Core Web3 Full-Stack Engineer',
-      // MonthOfLeaving: 'February 2022',
-      // YearOfLeaving: 'September 2022',
+      MonthOfLeaving: 'February 2022',
+      YearOfLeaving: 'January 2023',
       Achievements:
         "One of the core engineers exploring the NFT space for something more tangible than a profile picture or a simple jpeg. Enabling creative accessibility to users with easy-to-use interface. Helping create the very first interactive audiovisual NFT experience, selling out producer releases with over 300+ ethereum in trading volume. Maintaining positive product direction, retaining over 70% unique NFT holders across 4 collections.",
     },
@@ -94,15 +103,15 @@ let resumeData = {
       CompanyName: 'Terror Apps',
       link: 'https://terror.llc/',
       specialization: 'Software Engineer & Mobile Developer',
-      MonthOfLeaving: 'March 2020',
-      YearOfLeaving: 'March 2021',
+      MonthOfLeaving: 'January 2019',
+      YearOfLeaving: 'September 2019',
       Achievements:
         "Designing the web application and contributing to the publicly available PokerVault iOS application. Taking intiative in tackling UX/UI designs and decisions. Led Terror App's second mobile project in addressing mental health.",
     },
     {
       CompanyName: 'Smrtlens.com',
       specialization: 'CEO/Co-Founder',
-      MonthOfLeaving: 'March 2019',
+      MonthOfLeaving: 'March 2017',
       YearOfLeaving: 'April 2020',
       Achievements:
         "Designing and implementing business operations. Providing a means of protecting peoples' eyes from technologies that emit blue-light. Managing a small team that handles order processing and distribution.",
@@ -111,7 +120,7 @@ let resumeData = {
       CompanyName: 'Infrastructure Engineering, Inc',
       specialization: 'Civil Engineer',
       MonthOfLeaving: 'March 2017',
-      YearOfLeaving: 'September 2019',
+      YearOfLeaving: 'September 2018',
       Achievements:
         'A part of a team that managed the construction of a safe pedestrian bridge path/walkway for the community that alleviated pedestrian congestion during peak hours. A part of a team that installed a community park for a neighborhood. Redesigned hundreds of pedestrian sidewalks and intersections to accommodate ADA standards and address drainage problems, among other issues.',
     },
