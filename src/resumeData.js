@@ -47,30 +47,39 @@ let resumeData = {
     },
     {
       UniversityName: 'University of Illinois at Chicago',
-      specialization: 'Bachelor of Science in Civil Engineering',
-      MonthOfPassing: 'May',
-      YearOfPassing: '2013',
+      specialization: 'Bachelor of Science in Engineering',
+      // MonthOfPassing: 'May',
+      // YearOfPassing: '2013',
       // Achievements: 'Some Achievements',
     },
   ],
   work: [
+    // {
+    //   CompanyName: 'Protiviti',
+    //   link: 'https://www.protiviti.com/',
+    //   specialization: 'Lead Software Engineer',
+    //   // MonthOfLeaving: 'February 2022',
+    //   // YearOfLeaving: 'September 2022',
+    //   Achievements:
+    //     "Working with numerous clients on architecting systems and implementing solutions.",
+    // },
     {
-      CompanyName: 'Protiviti',
-      link: 'https://www.protiviti.com/',
+      CompanyName: 'TradeAlgo',
+      link: 'https://tradealgo.com/',
       specialization: 'Lead Software Engineer',
-      // MonthOfLeaving: 'February 2022',
-      // YearOfLeaving: 'September 2022',
+      MonthOfLeaving: 'August 2022',
+      YearOfLeaving: 'Current',
       Achievements:
-        "Working with numerous clients on architecting systems and implementing solutions.",
+        "Created real-time data ingestion micro-services, supplementing a variety of candle data processing. Built data analysis and processing services for nearly 1,500,000 options contracts, 9,000 stocks/equities, and over 100 different forex currency pairs. Created a finance-smart AI product based off of ChatGPT. Built an AI engine around various LLM’s with real-time datasets used to power and train them. Maintaining a production AI service that supports over 10,000 beta-testers for a financerepurposed ChatGPT experience. Scaled presentation api to accommodate multiple brands, removing code duplicity across microservices. Iterated on frontend consumer facing product to facilitate charting and live chat messaging.",
     },
     {
       CompanyName: 'Secret Garden',
       link: 'https://secretgarden.fm/',
       specialization: 'Founding Engineer',
       MonthOfLeaving: 'February 2022',
-      YearOfLeaving: 'January 2023',
+      YearOfLeaving: 'Current',
       Achievements:
-        "One of the core engineers exploring the NFT space for something more tangible than a profile picture or a simple jpeg. Enabling creative accessibility to users with easy-to-use interface. Helping create the very first interactive audiovisual NFT experience, selling out producer releases with over 300+ ethereum in trading volume. Maintaining positive product direction, retaining over 70% unique NFT holders across 4 collections.",
+        "One of the founding engineers exploring the NFT space for something more tangible than a profile picture or a simple jpeg. Enabling creative accessibility to users with easy-to-use interface. Helping create the very first interactive audiovisual NFT experience, selling out producer releases with over 300+ ethereum in trading volume. Maintaining positive product direction, retaining over 70% unique NFT holders across 4 collections.",
     },
     {
       CompanyName: 'Sporttrade',
